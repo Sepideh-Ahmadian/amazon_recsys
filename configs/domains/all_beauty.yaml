@@ -1,0 +1,13 @@
+name: all_beauty
+reviews_file: data/raw/All_Beauty.jsonl.gz
+meta_file: data/raw/meta_All_Beauty.jsonl.gz
+columns: {user: user_id, item: parent_asin, rating: rating, text: text, title: title, time: timestamp}
+prompt_dir: prompts/all_beauty
+filter:
+  min_user_interactions: 5
+  min_item_interactions: 5
+  k_core: true
+  max_users: 60             # sized to a 30-minute enrichment budget; null = every user that survives k-core
+  sample_seed: 42
+  sample_strategy: most_active        # random | most_active
+  min_item_interactions_after_sample: 2   # 20 users cannot give 5 users per item

@@ -1,0 +1,9 @@
+{
+  "name": "valid_with_extra_text",
+  "response": "Sure! Here is the analysis:\n```json\n{\"overall_sentiment\": -0.4, \"aspects\": [{\"aspect\": \"Cheap Packaging\", \"sentiment\": -0.6, \"evidence\": \"box was flimsy\"}]}\n```\nHope that helps.",
+  "expect": {
+    "status": "ok",
+    "n_aspects": 1,
+    "overall_sentiment": -0.4
+  }
+}

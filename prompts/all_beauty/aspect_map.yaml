@@ -1,0 +1,4 @@
+# synonym -> canonical aspect (both lowercase, lemmatised). Extend as the vocabulary grows.
+smell: scent
+fragrance: scent
+odor: scent

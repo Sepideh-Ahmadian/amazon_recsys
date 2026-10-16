@@ -1,0 +1,12 @@
+epochs: 100
+lr: 0.005
+weight_decay: 0.0
+batch_size: 64        # ~7 gradient steps per epoch on the ~450-row development subset
+n_neg: 1
+loss: bpr
+eval_every: 1
+patience: 15
+metric: ndcg@10
+grad_clip: 5.0
+# lr/batch_size were chosen from training loss only: with 1024 / 0.001 a 450-row train split
+# gets one step per epoch and the loss barely moves, so every model stays near its random init.

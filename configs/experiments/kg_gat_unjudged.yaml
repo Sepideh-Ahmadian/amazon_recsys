@@ -1,0 +1,5 @@
+domain: all_beauty
+graph: knowledge
+model: kg_gat
+overrides:
+  graph.judged_only: false

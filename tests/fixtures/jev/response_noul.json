@@ -1,0 +1,14 @@
+{
+  "_provenance": "hand-written from typesafe-sdk 0.6.0 response types; replace with a recorded response",
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 212,
+    "output_tokens": 0
+  },
+  "answers": {
+    "aspect_0_supported": {
+      "type": "noul",
+      "noul": 0.93
+    }
+  }
+}

@@ -1,0 +1,9 @@
+review_id,rating,title,text,aspect,aspect_raw,evidence,supported,polarity,completeness,format_ok
+r1,4,t,text of r1,scent,Scent,ev,yes,positive,3,yes
+r1,4,t,text of r1,texture,Texture,ev,yes,negative,,
+r2,4,t,text of r2,price,Price,ev,no,positive,2,yes
+r2,4,t,text of r2,packaging,Packaging,ev,no,positive,,
+r3,4,t,text of r3,color,Color,ev,no,,3,no
+r3,4,t,text of r3,durability,Durability,ev,yes,,,
+r4,4,t,text of r4,absorption,Absorption,ev,yes,,1,yes
+r4,4,t,text of r4,size,Size,ev,no,,,

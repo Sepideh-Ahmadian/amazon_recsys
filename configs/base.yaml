@@ -1,0 +1,8 @@
+seed: 0
+default_domain: all_beauty   # used when --domain is omitted
+device: cpu
+paths:
+  data_dir: data
+  runs_dir: runs
+  reports_dir: reports
+  prompts_dir: prompts

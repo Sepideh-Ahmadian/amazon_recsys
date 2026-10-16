@@ -1,0 +1,134 @@
+{
+  "_provenance": "recorded from the real TypeSafe API on 2026-10-15 (jev-1.13.0); answers only, no review text",
+  "model": "jev-1.13.0",
+  "answers": {
+    "format_followed": {
+      "type": "noul",
+      "noul": 0.27
+    },
+    "completeness": {
+      "type": "score",
+      "score": 1.46,
+      "confidence": 0.54,
+      "legend": {
+        "0": "The extraction misses most or all of the product aspects the reviewer comments on.",
+        "1": "The extraction covers some aspects but misses several the reviewer comments on.",
+        "2": "The extraction covers most aspects but misses one or two the reviewer comments on.",
+        "3": "The extraction mentions every product aspect the reviewer comments on."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.57,
+        "2": 0.4,
+        "3": 0.03
+      }
+    },
+    "overall_sentiment": {
+      "type": "score",
+      "score": 1.98,
+      "confidence": 0.88,
+      "legend": {
+        "0": "The reviewer is very negative about the product.",
+        "1": "The reviewer is somewhat negative about the product.",
+        "2": "The reviewer is neutral or mixed about the product.",
+        "3": "The reviewer is somewhat positive about the product.",
+        "4": "The reviewer is very positive about the product."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.08,
+        "2": 0.86,
+        "3": 0.06,
+        "4": 0.0
+      }
+    },
+    "aspect_0_supported": {
+      "type": "noul",
+      "noul": 0.42
+    },
+    "aspect_0_polarity": {
+      "type": "choice",
+      "choice": "positive",
+      "confidence": 0.98,
+      "probabilities": {
+        "positive": 0.99,
+        "negative": 0.01,
+        "neutral": 0.0
+      }
+    },
+    "aspect_1_supported": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "aspect_1_polarity": {
+      "type": "choice",
+      "choice": "negative",
+      "confidence": 1.0,
+      "probabilities": {
+        "positive": 0.0,
+        "negative": 1.0,
+        "neutral": 0.0
+      }
+    },
+    "aspect_2_supported": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "aspect_2_polarity": {
+      "type": "choice",
+      "choice": "positive",
+      "confidence": 0.89,
+      "probabilities": {
+        "positive": 0.93,
+        "negative": 0.01,
+        "neutral": 0.06
+      }
+    },
+    "aspect_3_supported": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "aspect_3_polarity": {
+      "type": "choice",
+      "choice": "negative",
+      "confidence": 0.85,
+      "probabilities": {
+        "positive": 0.05,
+        "negative": 0.9,
+        "neutral": 0.05
+      }
+    },
+    "aspect_4_supported": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "aspect_4_polarity": {
+      "type": "choice",
+      "choice": "positive",
+      "confidence": 0.83,
+      "probabilities": {
+        "positive": 0.89,
+        "negative": 0.08,
+        "neutral": 0.03
+      }
+    },
+    "aspect_5_supported": {
+      "type": "noul",
+      "noul": 0.99
+    },
+    "aspect_5_polarity": {
+      "type": "choice",
+      "choice": "positive",
+      "confidence": 1.0,
+      "probabilities": {
+        "positive": 1.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2555,
+    "output_tokens": 408
+  }
+}

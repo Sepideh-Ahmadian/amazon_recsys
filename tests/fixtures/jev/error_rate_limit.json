@@ -1,0 +1,6 @@
+{
+  "_provenance": "hand-written from typesafe-sdk 0.6.0 response types; replace with a recorded response",
+  "status": 429,
+  "message": "Rate limit exceeded",
+  "retry_after_ms": 1000
+}

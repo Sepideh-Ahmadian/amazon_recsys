@@ -1,0 +1,6 @@
+domain: all_beauty
+graph: bipartite
+model: gat
+overrides:
+  graph.weighting: rating
+  model.use_edge_weight: true

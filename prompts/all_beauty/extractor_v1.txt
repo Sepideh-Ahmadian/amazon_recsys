@@ -1,0 +1,31 @@
+You are an expert in analyzing customer reviews and product information, extracting key product aspects while considering both the product name and customer feedback.
+---USER---
+Analyze the following product review for aspect-based sentiment analysis.
+
+TASK:
+- Extract the product aspects the reviewer comments on: features, performance, or user experience. Use the product title if more context is needed.
+- For each aspect give:
+  - "aspect": a label of one adjective and one noun (e.g. "Pleasant Scent", "Thick Texture")
+  - "sentiment": a float between -1.0 (very negative) and +1.0 (very positive)
+  - "evidence": the exact phrase from the review that supports the aspect
+- Also give "overall_sentiment": a float between -1.0 and +1.0 for the whole review.
+
+REQUIREMENTS:
+- Extract only aspects of the product itself; ignore shipping, packaging, seller and price.
+- If the review contains no product aspects, return an empty "aspects" list.
+- Return a single valid JSON object and nothing else.
+
+OUTPUT FORMAT:
+{"overall_sentiment": 0.6, "aspects": [{"aspect": "Pleasant Scent", "sentiment": 0.8, "evidence": "smells so good"}]}
+
+EXAMPLE:
+Product title: Aloe Vera Body Lotion
+Review title: Nice but sticky
+Review: Smells great and absorbs quickly, but it leaves my hands a bit sticky.
+Output:
+{"overall_sentiment": 0.3, "aspects": [{"aspect": "Pleasant Scent", "sentiment": 0.8, "evidence": "Smells great"}, {"aspect": "Fast Absorption", "sentiment": 0.6, "evidence": "absorbs quickly"}, {"aspect": "Sticky Feel", "sentiment": -0.5, "evidence": "leaves my hands a bit sticky"}]}
+
+REVIEW TO ANALYZE:
+Product title: ${product_title}
+Review title: ${review_title}
+Review: ${review_text}

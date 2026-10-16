@@ -1,0 +1,38 @@
+version: v1
+
+# Per aspect, yes/no. The instructions object carries {extracted_aspect, evidence}.
+aspect_supported:
+  instructions: >-
+    Is the extracted aspect really mentioned in the review? Answer yes if the reviewer
+    talks about this feature, performance or experience of the product, even in
+    different words. Answer no if the aspect is invented, is about something other than
+    the product (shipping, packaging, seller, price), or is not in the review.
+
+# Per aspect, three-way choice. The extracted polarity is compared to this answer in code.
+aspect_polarity:
+  instructions: >-
+    What sentiment does the reviewer express toward this specific aspect, not toward the
+    product as a whole? Judge only what is said about this aspect. If the review does not
+    express an opinion about it, answer neutral.
+  options: [positive, negative, neutral]
+
+# Review-level, ordered scales (worst level first, each level describes a situation).
+completeness:
+  instructions: >-
+    How completely does the extraction cover the product aspects that the reviewer
+    comments on in the review?
+  levels:
+    - The extraction misses most or all of the product aspects the reviewer comments on.
+    - The extraction covers some aspects but misses several the reviewer comments on.
+    - The extraction covers most aspects but misses one or two the reviewer comments on.
+    - The extraction mentions every product aspect the reviewer comments on.
+
+overall_sentiment:
+  instructions: >-
+    What is the reviewer's overall sentiment toward the product?
+  levels:
+    - The reviewer is very negative about the product.
+    - The reviewer is somewhat negative about the product.
+    - The reviewer is neutral or mixed about the product.
+    - The reviewer is somewhat positive about the product.
+    - The reviewer is very positive about the product.

@@ -1,0 +1,7 @@
+domain: all_beauty
+graph: bipartite
+model: gat
+overrides:
+  graph.weighting: rating_sentiment
+  graph.min_judge_score: 0.7
+  model.use_edge_weight: true

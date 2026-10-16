@@ -1,0 +1,46 @@
+{
+  "_provenance": "recorded from the real TypeSafe API on 2026-10-15 (jev-1.13.0); answers only, no review text",
+  "model": "jev-1.13.0",
+  "answers": {
+    "completeness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 1.0,
+      "legend": {
+        "0": "The extraction misses most or all of the product aspects the reviewer comments on.",
+        "1": "The extraction covers some aspects but misses several the reviewer comments on.",
+        "2": "The extraction covers most aspects but misses one or two the reviewer comments on.",
+        "3": "The extraction mentions every product aspect the reviewer comments on."
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    },
+    "overall_sentiment": {
+      "type": "score",
+      "score": 1.96,
+      "confidence": 0.95,
+      "legend": {
+        "0": "The reviewer is very negative about the product.",
+        "1": "The reviewer is somewhat negative about the product.",
+        "2": "The reviewer is neutral or mixed about the product.",
+        "3": "The reviewer is somewhat positive about the product.",
+        "4": "The reviewer is very positive about the product."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.05,
+        "2": 0.94,
+        "3": 0.01,
+        "4": 0.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 884,
+    "output_tokens": 36
+  }
+}

@@ -1,0 +1,3 @@
+domain: all_beauty
+graph: bipartite
+model: lightgcn

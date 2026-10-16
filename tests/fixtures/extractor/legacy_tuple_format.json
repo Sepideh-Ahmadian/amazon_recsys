@@ -1,0 +1,8 @@
+{
+  "name": "legacy_tuple_format",
+  "response": "```json\n[\n    [334455, [\n        \"literally no scent as advertised\": (\"Accurate Description\", +0.9),\n        \"the product is a bit thick\": (\"Thick Texture\", -0.2)\n    ]]\n]\n```",
+  "expect": {
+    "status": "parse_error"
+  },
+  "note": "sample of the legacy output format (not valid JSON); migrated from legacy/Output"
+}

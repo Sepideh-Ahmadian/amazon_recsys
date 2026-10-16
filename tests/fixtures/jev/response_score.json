@@ -1,0 +1,25 @@
+{
+  "_provenance": "hand-written from typesafe-sdk 0.6.0 response types; replace with a recorded response",
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 240,
+    "output_tokens": 0
+  },
+  "answers": {
+    "completeness": {
+      "type": "score",
+      "score": 1.7,
+      "confidence": 0.71,
+      "legend": {
+        "0": "Misses most aspects.",
+        "1": "Covers some aspects.",
+        "2": "Covers every aspect."
+      },
+      "probabilities": {
+        "0": 0.05,
+        "1": 0.2,
+        "2": 0.75
+      }
+    }
+  }
+}

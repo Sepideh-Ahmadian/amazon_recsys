@@ -1,0 +1,20 @@
+{
+  "_provenance": "hand-written from typesafe-sdk 0.6.0 response types; replace with a recorded response",
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 230,
+    "output_tokens": 0
+  },
+  "answers": {
+    "aspect_0_polarity": {
+      "type": "choice",
+      "choice": "positive",
+      "confidence": 0.88,
+      "probabilities": {
+        "positive": 0.88,
+        "negative": 0.04,
+        "neutral": 0.08
+      }
+    }
+  }
+}

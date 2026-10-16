@@ -1,0 +1,4 @@
+weighting: none            # none | rating | rating_sentiment
+alpha: 0.5                 # weight of rating vs sentiment in rating_sentiment
+min_judge_score: null      # null = no judge filter
+accept_uncertain: false

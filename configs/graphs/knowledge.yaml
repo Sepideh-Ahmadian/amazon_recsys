@@ -1,0 +1,10 @@
+relations: [likes, dislikes, has_positive_aspect, has_negative_aspect, cares_about]
+like_threshold: 4.0
+dislike_threshold: 2.0
+judged_only: true            # false = keep every extracted aspect (ablation)
+min_aspect_support: 0.7
+min_polarity_confidence: 0.7
+min_aspect_count: 1
+min_user_aspect_count: 1
+accept_uncertain: false
+embedding: {model: TransE, dim: 64, epochs: 50}

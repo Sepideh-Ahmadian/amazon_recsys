@@ -1,0 +1,23 @@
+extractor:
+  provider: openrouter                              # azure | openrouter
+  deployment: mistralai/mistral-small-24b-instruct-2501   # OpenRouter slug (Azure: deployment name)
+  prompt_version: v1
+  temperature: 0.0
+  max_tokens: 600
+  batch_size: 20
+  concurrency: 16
+  price_per_million_input_tokens: 0.05  # USD; output is $0.08/M, not in the estimate
+judge:
+  provider: typesafe
+  model: jev-1.13.0            # pin a version; never jev-latest for reported results
+  questions_version: v1
+  max_state_chars: 6000
+  max_aspects_per_request: 15
+  weights: {faithfulness: 0.35, polarity_accuracy: 0.25, completeness: 0.15, sentiment_agreement: 0.15, format_compliance: 0.10}
+  pass_threshold: 0.7          # replace with calibrated value
+  min_confidence: 0.5          # replace with calibrated value
+  sample_rate: 1.0
+  concurrency: 16
+  price_per_million_input_tokens: 0.042
+retry: {max_attempts: 5, backoff_seconds: 2}
+rate_limit: {requests_per_minute: 300}

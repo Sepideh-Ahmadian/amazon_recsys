@@ -1,0 +1,7 @@
+{
+  "name": "malformed_json",
+  "response": "{\"overall_sentiment\": 0.5, \"aspects\": [{\"aspect\": \"Scent\", \"sentiment\": 0.9,",
+  "expect": {
+    "status": "parse_error"
+  }
+}

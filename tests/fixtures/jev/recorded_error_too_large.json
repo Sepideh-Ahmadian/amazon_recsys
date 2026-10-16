@@ -1,0 +1,11 @@
+{
+  "_provenance": "recorded from the real TypeSafe API on 2026-10-15 (jev-1.13.0); answers only, no review text",
+  "class": "TypeSafeBadRequestError",
+  "status": 400,
+  "message": "POST https://api.typesafe.ai/v1/systemone: 400 {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}} (request_id=req_01a1413c419a7aa193e034ec25a9ea7f)",
+  "body": {
+    "detail": {
+      "error_type": "max_tokens_exceeded"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "review": {
+      "title": "Nice",
+      "text": "Smells great but sticky.",
+      "rating": 4.0
+    },
+    "extraction": {
+      "overall_sentiment": 0.3,
+      "aspects": [
+        {
+          "aspect": "pleasant scent",
+          "polarity": 1
+        }
+      ]
+    }
+  },
+  "questions": {
+    "completeness": {
+      "type": "score",
+      "instructions": "How completely does the extraction cover the aspects?",
+      "criteria": [
+        "Misses most aspects.",
+        "Covers some aspects.",
+        "Covers every aspect."
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Large / generated / private: anchored to the project root so that source packages that happen
+# to be called "data" (src/amazon_recsys/data, tests/data) are NOT ignored.
+/legacy/
+/data/
+/runs/
+/reports/
+
+# secrets and local environment
+.env
+.venv/
+
+# caches and artefacts
+*.pt
+*.pkl
+*.sqlite
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+*.egg-info/
+.DS_Store

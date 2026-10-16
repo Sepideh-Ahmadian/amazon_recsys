@@ -1,0 +1,7 @@
+{
+  "name": "sentiment_out_of_range",
+  "response": "{\"overall_sentiment\": 4.5, \"aspects\": []}",
+  "expect": {
+    "status": "parse_error"
+  }
+}

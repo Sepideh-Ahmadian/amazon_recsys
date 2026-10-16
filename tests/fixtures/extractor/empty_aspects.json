@@ -1,0 +1,9 @@
+{
+  "name": "empty_aspects",
+  "response": "{\"overall_sentiment\": 0.0, \"aspects\": []}",
+  "expect": {
+    "status": "ok",
+    "n_aspects": 0,
+    "overall_sentiment": 0.0
+  }
+}

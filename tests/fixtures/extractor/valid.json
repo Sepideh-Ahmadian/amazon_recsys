@@ -1,0 +1,9 @@
+{
+  "name": "valid",
+  "response": "{\"overall_sentiment\": 0.6, \"aspects\": [{\"aspect\": \"Pleasant Scent\", \"sentiment\": 0.8, \"evidence\": \"smells so good\"}, {\"aspect\": \"Thick Texture\", \"sentiment\": -0.2, \"evidence\": \"a bit thick\"}]}",
+  "expect": {
+    "status": "ok",
+    "n_aspects": 2,
+    "overall_sentiment": 0.6
+  }
+}
